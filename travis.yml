@@ -2,8 +2,8 @@ language: java
 
 addons:
   sonarcloud:
-    organization: "fahaba-github"
-    token: "8032b60ceae0d50b7aec72ac160ef7c7e4496ca1"
+    organization: "hedgedoge21490-github"
+    token: "b477237e2dacd0f559fb733fba63bacbfccbf209"
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis

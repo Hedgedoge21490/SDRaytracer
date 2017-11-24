@@ -1,7 +1,5 @@
 *.project
 bin
 .settings
-*.xml
 *.iml
-*.properties
 *.classpath

@@ -3,7 +3,7 @@ language: java
 addons:
   sonarcloud:
     organization: "hedgedoge21490-github"
-    token: "b477237e2dacd0f559fb733fba63bacbfccbf209"
+    token: $SonarTracer
 
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis

@@ -4,5 +4,4 @@ bin
 *.xml
 *.iml
 *.properties
-*.yml
 *.classpath

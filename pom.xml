@@ -2,11 +2,11 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <name>task.SDRaytracer</name>
+    <name>SDRaytracer</name>
     <!--    Bitte die groupId anpassen, da SonarCloud sonst die Fehlermeldung "You're only authorized to execute a
             local (preview) SonarQube analysis without pushing the results to the SonarQube server." anzeigt. Das
             Projekt muss auf SonarCloud anscheinend eine eindeutige groupId haben. -->
-    <groupId>de.unitrier.st.fst17fahaba</groupId> <!-- z.B. de.unitrier.st.fst17GITHUB_USERNAME -->
+    <groupId>de.unitrier.st.fst17hedgedoge21490</groupId> <!-- z.B. de.unitrier.st.fst17GITHUB_USERNAME -->
     <artifactId>list</artifactId>
     <version>0.1</version>
     <url>https://github.com/Hedgedoge21490/SDRaytracer</url>

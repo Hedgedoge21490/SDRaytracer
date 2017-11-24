@@ -1,0 +1,8 @@
+*.project
+bin
+.settings
+*.xml
+*.iml
+*.properties
+*.yml
+*.classpath

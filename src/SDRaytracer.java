@@ -1,4 +1,3 @@
-
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import java.awt.Color;
@@ -23,8 +22,6 @@ import java.util.concurrent.Future;
 /* Implementation of a very simple Raytracer
    Stephan Diehl, Universität Trier, 2010-2016
 */
-
-
 
 public class SDRaytracer extends JFrame
 {
@@ -520,5 +517,3 @@ class Matrix {
        }
     }
 }
-
-

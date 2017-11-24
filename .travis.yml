@@ -9,5 +9,5 @@ script:
 
 mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar \
     -Dsonar.host.url=https://sonarcloud.io/ \
-    -Dsonar.organization=your_organization_key \
+    -Dsonar.organization=hedgedoge21490-github\
     -Dsonar.login=59fb20dfad64e67be4eaf408df137599994c4ae6

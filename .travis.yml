@@ -6,5 +6,8 @@ addons:
     token: "59fb20dfad64e67be4eaf408df137599994c4ae6"
 script:
   # the following command line builds the project, runs the tests with coverage and then execute the SonarCloud analysis
-  - mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent install sonar:sonar
--Dsonar.login="59fb20dfad64e67be4eaf408df137599994c4ae6"
+
+mvn clean org.jacoco:jacoco-maven-plugin:prepare-agent package sonar:sonar \
+    -Dsonar.host.url=https://sonarcloud.io/ \
+    -Dsonar.organization=your_organization_key \
+    -Dsonar.login=59fb20dfad64e67be4eaf408df137599994c4ae6
